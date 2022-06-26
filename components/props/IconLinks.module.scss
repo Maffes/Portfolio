@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+
+
+.links {
+
+  padding: 40px 0 0 0;
+  display: flex;
+
+  z-index: 100;
+}
+
+
+
+
+.links a {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  filter: $DarkMainSVG;
+}
+
+.links a:hover {
+  filter: $FeatureColorSVG;
+  transition: 200ms;
+
+}
+
+
+@media (min-width: 768px) {
+  .links {
+    bottom: 0;
+    padding: 0 0 40px 0;
+  }
+  .links {
+    width: 30%;
+    }
+    
+}

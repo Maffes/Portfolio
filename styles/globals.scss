@@ -1,0 +1,206 @@
+@import './variables.scss';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import '../components/textSpan/TextSpan.module.scss';
+@import '../components/props/CircleButton.module.scss';
+@import '../components/contactForm/ContactForm.module.scss';
+@import './mixins';
+@import './fonts.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Silka, -apple-system, 'Segoe UI', Roboto, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: $darkMain;
+  scroll-behavior: revert;
+  background: $LightMain;
+  transition: background 0.6s;
+  @include Tablet() {
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: $darkMain;
+  transition: color 0.6s;
+  @include XL() {
+    font-size: 5rem;
+  }
+  @include Tablet() {
+    font-size: 3.5em;
+    font-weight: 700;
+  }
+  @include Mobile() {
+    font-size: 2.7rem;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  @include Tablet() {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  @include Mobile() {
+    font-size: 1.4rem;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: 300;
+  color: $darkSecondary;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  @include Tablet() {
+    font-weight: 300;
+    color: $darkSecondary;
+  }
+  @include Mobile() {
+    line-height: 30px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $darkMain;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  font-weight: 300;
+  color: $darkSecondary;
+}
+
+form {
+  padding: 0;
+}
+
+.form-control {
+  background: $TextArea;
+  color: $darkMain;
+  border-radius: 0;
+  border: none;
+  padding: 25px;
+  transition: 0.6s;
+}
+
+textarea.form-control {
+  color: $darkMain;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0;
+  background: $TextAreaFocus;
+}
+
+.transitionAnimation {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  position: fixed;
+  z-index: 99999;
+}
+
+@media screen and (min-width: 1600px) {
+  h1 {
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+//move to correct style sheet
+.loaded-img {
+  width: 0 !important;
+}
+
+/* Invert Classes */
+
+body.invert {
+  color: $LightMain;
+  background: $darkBackground;
+  transition: background 0.6s;
+}
+
+body.invert p,
+body.invert span,
+body.invert li {
+  color: $LightSecondaryDarkMode;
+}
+
+.invert .footer p,
+.invert .footer span,
+.invert a:hover {
+  color: $LightMain;
+}
+
+.invert #submit {
+  background: none;
+}
+
+.invert h1 {
+  color: $LightMain;
+  transition: color 0.6s;
+}
+
+.invert #submit:hover {
+  background: $FeatureColor;
+}
+
+.invert input,
+.invert textarea {
+  background: $darkMain;
+  color: $LightMain;
+}
+
+.invert input:focus,
+.invert textarea:focus {
+  background: $darkSecondary;
+  color: $LightMain;
+}
+
+.invert textarea.form-control {
+  color: $LightMain;
+  transition: 0.6s;
+}

@@ -1,0 +1,25 @@
+$darkMain: #333333;
+$darkSecondary: #666666;
+$darkBackground: #1b1b1b;
+$LightMain: #f0f0f0;
+$LightSecondary: #f0f0f0;
+$LightSecondaryDarkMode: #bebebe;
+$TextArea: #e8e8e8;
+$TextAreaFocus: #dfdfdf;
+
+$FeatureColor: #3c6fef;
+$FeatureColorSVG: invert(36%) sepia(97%) saturate(2839%) hue-rotate(213deg)
+  brightness(97%) contrast(91%);
+$LightMainSVG: invert(100%) saturate(0%) brightness(171%) contrast(88%);
+$DarkMainSVG: invert(17%) sepia(1%) saturate(2187%) hue-rotate(42deg)
+  brightness(115%) contrast(98%);
+
+/* Padding Values */
+$SectionPaddingXLarge: 13rem;
+$SectionPaddingLarge: 8rem;
+$SectionPaddingMedium: 5rem;
+$SectionPaddingSmall: 2.5rem;
+
+$ComponentPadding: 3rem;
+$SectionPaddingMobile: 2rem;
+$HeaderPaddingMobile: 1.5rem;

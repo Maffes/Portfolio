@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.textSpan h1 {
+  margin-bottom: 2.5rem;
+}
+
+.textSpan {
+  margin: $SectionPaddingLarge 0;
+}
+
+.textSpan p {
+  padding-top: 10px;
+}
+
+.setTextWidth {
+  max-width: 1100px;
+}
+
+@media (max-width: 992px) {
+  .textSpan {
+    margin: $SectionPaddingMedium 0;
+  }
+
+  .setTextWidth {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .textSpan {
+    margin: $ComponentPadding 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .textSpan {
+    margin: $SectionPaddingXLarge 0;
+  }
+}

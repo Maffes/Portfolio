@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.imgSpanContainer {
+  margin: $SectionPaddingMedium 0;
+  height: 90vh;
+}
+
+.imgSpan {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+@media screen and (min-with: 1450px) {
+  .imgSpan {
+    margin: $SectionPaddingXLarge 0;
+  }
+}

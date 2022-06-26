@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+
+.WorkListContainer {
+  margin: $SectionPaddingLarge auto;
+}
+
+.WorkListContainer h1 {
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 1600px) {
+  .WorkListContainer {
+    margin: $SectionPaddingXLarge auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .WorkListType {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .WorkListContainer h1 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .WorkListContainer h1 {
+    font-size: 2.7rem;
+  }
+}
+
+.listType {
+  border-bottom: 1px solid $darkSecondary;
+  padding-bottom: 10px;
+}
+
+.paddingFix {
+  padding: 0 0.75rem;
+}
+
+.WorkListRow {
+  border-bottom: 1px solid $darkSecondary;
+  align-items: center;
+  padding: $ComponentPadding 0;
+  cursor: pointer;
+}
+
+.WorkListRow ul {
+  padding: 0;
+}
+
+.WorkListRow span {
+  color: $darkSecondary;
+  line-height: 1.8;
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .WorkListRow span {
+    display: inline;
+  }
+
+  .WorkListRow span:not(:first-child)::before {
+    content: ' | ';
+  }
+}
+
+@media (max-width: 576px) {
+  .WorkListContainer {
+    margin-top: $ComponentPadding;
+  }
+}

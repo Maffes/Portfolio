@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.navContainer a {
+  max-width: 140px;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  cursor: pointer;
+  max-width: 140px;
+}
+
+.logoName {
+  margin: 0;
+  font-weight: 500;
+  padding: 0 0 0 15px;
+  color: $darkMain;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    padding: 20px 0;
+  }
+
+  .logo img{
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .logoName {
+    font-size: 16px;
+  }
+
+
+}

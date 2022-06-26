@@ -1,0 +1,95 @@
+@import '../../styles/variables.scss';
+
+.heroContainer {
+  height: 100vh;
+  margin-bottom: $SectionPaddingMedium;
+}
+
+@media screen and (min-width: 1600px) {
+  .heroContainer {
+    margin-bottom: $SectionPaddingXLarge;
+  }
+}
+
+.heroImageColorBlock {
+  background: $LightMain;
+  z-index: 4;
+  width: inherit;
+  height: 100%;
+  transition: width 0.5s;
+  position: absolute;
+  right: 0;
+}
+
+.heroImageColorBack {
+  background: $FeatureColor;
+  z-index: 3;
+  height: 100%;
+  width: inherit;
+  transition: width 0.5s;
+  position: absolute;
+  right: 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: $SectionPaddingMedium;
+  position: absolute;
+  width: 100%;
+}
+
+.hero h1 {
+  padding: 50px 0;
+}
+
+.hero p {
+  max-width: 700px;
+}
+
+.heroImageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.heroImage {
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  padding: 0;
+}
+
+.heroText {
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    height: 75vh;
+    min-height: 600px;
+    position: relative;
+    padding: $SectionPaddingSmall 0;
+    margin-bottom: 0;
+  }
+  .heroImageContainer {
+    height: 25vh;
+  }
+  .imageSpacer {
+    display: none;
+  }
+  .heroContainer {
+    margin-bottom: calc($SectionPaddingMedium + 2rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    padding: 30px 0;
+  }
+
+  .heroContainer {
+    margin-bottom: $SectionPaddingMedium;
+  }
+}

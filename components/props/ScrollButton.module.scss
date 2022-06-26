@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.scrollButtonContainer {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  z-index: 50;
+
+}
+
+
+.scrollButton {
+  padding: 5px;
+  margin: 5px 5px 40px 5px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.scroll {
+  width: 30px;
+  height: 30px;
+
+  }
+
+
+  @media (max-width: 992px) {
+    .scrollButton {
+      margin: 0;
+      bottom: -20px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      background-color: $FeatureColor;
+    }
+    .scroll {
+      filter: $LightMainSVG;
+    }
+  }
+
+
+

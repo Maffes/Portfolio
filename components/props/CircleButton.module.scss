@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.circle {
+  height: 225px;
+  width: 225px;
+  border: 2px solid $LightMain;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  //transition: border .6s;
+}
+
+.circle:hover {
+  background: $FeatureColor;
+  border: 2px solid $FeatureColor;
+  transition: 200ms;
+  color: $LightMain;
+}

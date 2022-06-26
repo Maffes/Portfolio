@@ -1,0 +1,137 @@
+@import '../../styles/variables.scss';
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  color: $LightMain;
+  padding-top: 1rem;
+}
+
+.footer ul li,
+.footer p {
+  color: $LightMain;
+}
+
+
+.footer a:hover {
+  color: $LightMain;
+}
+
+.footer h1 {
+  text-align: center;
+  color: $LightMain ;
+  margin: $SectionPaddingMedium 0;
+}
+
+.copyright {
+  border-top: 1px solid $LightMain;
+  margin-top: $SectionPaddingMedium;
+  padding: $SectionPaddingMobile 0;
+}
+
+.copyright p {
+  display: inline;
+  //color: $LightMain;
+}
+
+.copyright col-12 {
+  text-align: center !important;
+}
+
+.contactSection {
+  align-items: center;
+  margin: $SectionPaddingMedium 0;
+}
+
+.row .col-2 {
+  text-align: right !important;
+}
+
+.contactButton a {
+  cursor: default;
+}
+
+.footer span {
+  color: $LightSecondary;
+}
+
+@media (max-width: 768px) {
+  .footer h1 {
+    margin: 0 0 $SectionPaddingSmall 0;
+  }
+
+  .footer ul {
+    padding: 0;
+  }
+
+  .copyright {
+    margin-top: $SectionPaddingSmall;
+    padding: $SectionPaddingMobile 0;
+  }
+
+  .copyright p {
+    line-height: 1.3;
+  }
+
+  .contactSection {
+    align-items: center;
+  }
+
+  .contactInfo {
+    margin: $SectionPaddingSmall 0;
+  }
+
+  .contactButton {
+    margin: $SectionPaddingSmall 0;
+  }
+}
+
+.invert .contactInfo li {
+  color: $LightMain;
+}
+
+.contactInfo li {
+  margin: 0;
+  padding: 15px 0 15px 50px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  //
+
+}
+
+
+@media (max-width: 576px) {
+  .footer {
+    margin-top: $SectionPaddingSmall;
+
+  }
+}
+
+
+.contactInfo li:nth-child(1) {
+  background-image: url('../../public/Phone.svg');
+}
+.contactInfo li:nth-child(2) {
+  background-image: url('../../public/Pin_alt_fill.svg');
+}
+.contactInfo li:nth-child(3) {
+  background-image: url('../../public/Message.svg');
+}
+
+@media screen and (min-width: 1600px) {
+  .footer {
+    padding-top: $SectionPaddingXLarge;
+  }
+
+  .contactSection {
+    margin: 10rem 0;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .contactSection {
+    margin: $SectionPaddingXLarge 0;
+  }
+}

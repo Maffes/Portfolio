@@ -1,148 +1,211 @@
-{"data": [
-  {"content": [
-  {
-    "id":"0",
-    "slug": "/",
-    "contentType": "index",
-    "jobType": [{"typeName": "UX/UI Design", "typeId": "ux"}, {"typeName": "App Development", "typeId": "app"}, {"typeName": "Web Development", "typeId": "web"}],
-    "hero":{
-    "mainHeading":"Matthew Humphreys",
-    "subHeading": "Digital Solutions",
-    "image": "../../unnamed.webp",
-    "imageFull": "../../unnamed.webp",
-    "text": "As a Freelance Digital Designer & Developer, I am here to make you stand out in the digital world. The combination of my passion for all things web and your vision will ensure a great end result.",
-    "links": [{"title": "linkedin", "url": "https://www.linkedin.com/in/matthew-humphreys-74b44b140/"}, {"title": "github", "url":"https://github.com/USC-MH170"}, {"title": "contact", "url":"/contact"}]
-    },
-    "Paragraph1": {
-      "title": "About Me",
-      "colSpan": 7,
-      "text": "Primarily a front-end developer, I also have a fondness for UX/UI design. Ultimately, I enjoy creating things that live on the internet and strive to push the boundaries of what I can create. Based on the Sunshine Coast, I provide a personal and tailored services making your digital dreams come to fruition."
-    },
-    "Services": {
-      "title": "Services",
-      "colSpan": 5,
-      "text": " "
+{
+  "data": [
+    {
+      "content": [
+        {
+          "id": "0",
+          "slug": "/",
+          "contentType": "index",
+          "jobType": [
+            { "typeName": "UX/UI Design", "typeId": "ux" },
+            { "typeName": "App Development", "typeId": "app" },
+            { "typeName": "Web Development", "typeId": "web" }
+          ],
+          "hero": {
+            "mainHeading": "Matthew Humphreys",
+            "subHeading": "Digital Solutions",
+            "image": "../../unnamed.webp",
+            "imageFull": "../../unnamed.webp",
+            "text": "As a Freelance Digital Designer & Developer, I am here to make you stand out in the digital world. The combination of my passion for all things web and your vision will ensure a great end result.",
+            "links": [
+              {
+                "title": "linkedin",
+                "icon": "fa-brands fa-linkedin",
+                "url": "https://www.linkedin.com/in/matthew-humphreys-74b44b140/"
+              },
+              {
+                "title": "github",
+                "icon": "fa-brands fa-square-github",
+                "url": "https://github.com/USC-MH170"
+              },
+              {
+                "title": "contact",
+                "icon": "fa-solid fa-paper-plane",
+                "url": "/contact"
+              }
+            ]
+          },
+          "Paragraph1": {
+            "title": "About Me",
+            "colSpan": 7,
+            "text": "Primarily a front-end developer, I also have a fondness for UX/UI design. Ultimately, I enjoy creating things that live on the internet and strive to push the boundaries of what I can create. Based on the Sunshine Coast, I provide a personal and tailored services making your digital dreams come to fruition."
+          },
+          "Services": {
+            "title": "Services",
+            "colSpan": 5,
+            "text": " "
+          }
+        },
+        {
+          "id": "1",
+          "slug": "SchoolzineKnowledgeBase",
+          "contentType": "caseStudy",
+          "jobType": [
+            { "typeName": "UX/UI Design", "typeId": "ux" },
+            { "typeName": "Front-End Development", "typeId": "web" }
+          ],
+          "hero": {
+            "mainHeading": "Schoolzine Knowledgebase",
+            "subHeading": "Case Study",
+            "image": "../../Schoolzine_Hero.webp",
+            "imageFull": "../../Schoolzine_Full.png",
+            "text": "Supporting Schoolzine’s mission to provide exceptional customer service. The knowledge base system is a central referencepoint providing comprehensive guides for the Schoolzine platforms many features.",
+            "links": [
+              {
+                "title": "website",
+                "icon": "fa-solid fa-globe",
+                "url": "https://www.schoolzine.com/kb"
+              }
+            ]
+          },
+          "Paragraph1": {
+            "title": "Planning",
+            "colSpan": 12,
+            "text": "As an Australian based company with an international clientele, the ability to provide quick and quality customer services becomes a challenge. Moreover, the Schoolzine platform has multiple services which contributes to a lengthy and content heavy client induction followed by recurring support enquiries. A system is required to alleviate the pressure placed on the support team and create an enriched and intuitive solution for the users."
+          },
+          "Paragraph2": {
+            "title": "Process",
+            "colSpan": 12,
+            "text": "Assessing the needs of the Schoolzing staff and their users, a conceptual model was developed for the information architecture the proposed system will follow. With varying levels of computer literacy and knowledge of the Schoolzine platform, a categorical approach is implemented. To assist users with limited knowledge of terminology, the user can follow a top down approach narrowing in on the information then required. Moreover, this provides the user with nuance in what each system provides and its functionality. However, it was identified that users may require an option for rapid navigation and filtering. Therefore a search feature is implemented to search for results based on keywords."
+          },
+          "Paragraph3": {
+            "title": "Result",
+            "colSpan": 12,
+            "text": "Since the implementation of the knowledge base system, Schoolzine has experienced a reduction in recurring support enquiries alleviating extra pressure placed on the support team. Used as a reference sheet for client onboarding, the knowledge base reduces training time whilst enhancing training quality. Furthermore, giving clients peace of mind knowing they can fall back on the knowledge base in the instance live support is not available."
+          },
+          "Paragraph4": {
+            "title": "The Development Process",
+            "colSpan": 12,
+            "text": "Coming Soon"
+          },
+          "Services": {
+            "title": "Services",
+            "colSpan": 6,
+            "text": " "
+          },
+          "Year": {
+            "title": "Year",
+            "colSpan": 6,
+            "text": "2018"
+          }
+        },
+        {
+          "id": "2",
+          "slug": "PortfolioWebsite",
+          "contentType": "caseStudy",
+          "jobType": [
+            { "typeName": "UX/UI Design", "typeId": "ux" },
+            { "typeName": "Full-Stack Development", "typeId": "web" }
+          ],
+          "hero": {
+            "mainHeading": "Portfolio Website",
+            "subHeading": "Case Study",
+            "image": "../../Portfolio_Hero.webp",
+            "imageFull": "../../Portfolio_Full.webp",
+            "text": "As an upcoming freelancer I required a website that showcases my talents and generate leads. Using the latest in web technologies I can created a clean and comprehensive portfolio website.",
+            "links": [
+              {
+                "title": "website",
+                "icon": "fa-solid fa-globe",
+                "url": "https://www.maff.com.au"
+              }
+            ]
+          },
+          "Paragraph1": {
+            "title": "Planning",
+            "colSpan": 12,
+            "text": "Approaching the task of designing my portfolio website, I had to identify who the target audience is and how I can captivate their attention. Based on the Sunshine Coast, my focus is to work with local small businesses to assist with their digital needs. Moreover, with the understanding that too much reading can be a deterrent, the task was approached with the aim of a minimalistic website. For the development of the website, I wanted to use new and upcoming web technologies which will facilitate easy maintenance and upgrades."
+          },
+          "Paragraph2": {
+            "title": "Process",
+            "colSpan": 12,
+            "text": "From user personas and wireframes to high fidelity mock-ups, multiple approaches were perused to design the portfolio website. User testing was performed by small business owners receiving positive feedback. The recurring consensus was the straight to the point approach was preferred without having to navigate through a “sales page”. Initially the website was going to be developed with the React library. However, as SEO is important NextJS was used instead capitalising on its server-side rendering. Additionally, using OOP the website is developed in components to provide easy maintenance and flexibility."
+          },
+          "Paragraph3": {
+            "title": "Result",
+            "colSpan": 12,
+            "text": "Coming Soon"
+          },
+          "Services": {
+            "title": "Services",
+            "colSpan": 6,
+            "text": " "
+          },
+          "Year": {
+            "title": "Year",
+            "colSpan": 6,
+            "text": "2022"
+          }
+        },
+        {
+          "id": "3",
+          "slug": "BulletJournalApp",
+          "contentType": "caseStudy",
+          "jobType": [
+            { "typeName": "UX/UI Design", "typeId": "ux" },
+            { "typeName": "App Development", "typeId": "app" }
+          ],
+          "hero": {
+            "mainHeading": "Bullet Journal App",
+            "subHeading": "Case Study",
+            "image": "../../Bullet_Hero.webp",
+            "imageFull": "../../Bullet_Hero.webp",
+            "text": "Coming Soon",
+            "links": [
+              {
+                "title": "website",
+                "icon": "fa-solid fa-globe",
+                "url": "https://www.google.com/"
+              },
+              {
+                "title": "appleStore",
+                "icon": "fa-brands fa-apple",
+                "url": "https://www.apple.com/"
+              },
+              {
+                "title": "googlePlay",
+                "icon": "fa-brands fa-google-play",
+                "url": "https://www.google.com/"
+              }
+            ]
+          },
+          "Paragraph1": {
+            "title": "Planning",
+            "colSpan": 12,
+            "text": "Coming Soon"
+          },
+          "Paragraph2": {
+            "title": "Process",
+            "colSpan": 12,
+            "text": "Coming Soon"
+          },
+          "Paragraph3": {
+            "title": "Result",
+            "colSpan": 12,
+            "text": "Coming Soon"
+          },
+          "Services": {
+            "title": "Services",
+            "colSpan": 6,
+            "text": " "
+          },
+          "Year": {
+            "title": "Year",
+            "colSpan": 6,
+            "text": "Coming Soon"
+          }
+        }
+      ]
     }
-  },{
-    "id":"1",
-    "slug": "SchoolzineKnowledgeBase",
-    "contentType": "caseStudy",
-    "jobType": [{"typeName": "UX/UI Design", "typeId": "ux"}, {"typeName": "Front-End Development", "typeId": "web"}],
-    "hero":{
-    "mainHeading":"Schoolzine Knowledgebase",
-    "subHeading": "Case Study",
-    "image": "../../Schoolzine_Hero.webp",
-    "imageFull": "../../Schoolzine_Full.png",
-    "text": "Supporting Schoolzine’s mission to provide exceptional customer service. The knowledge base system is a central referencepoint providing comprehensive guides for the Schoolzine platforms many features.",
-    "links": [{"title": "website", "url": "https://www.schoolzine.com/kb"}]
-    },
-    "Paragraph1": {
-      "title": "Planning",
-      "colSpan": 12,
-      "text": "As an Australian based company with an international clientele, the ability to provide quick and quality customer services becomes a challenge. Moreover, the Schoolzine platform has multiple services which contributes to a lengthy and content heavy client induction followed by recurring support enquiries. A system is required to alleviate the pressure placed on the support team and create an enriched and intuitive solution for the users."
-    },
-    "Paragraph2": {
-      "title": "Process",
-      "colSpan": 12,
-      "text": "Assessing the needs of the Schoolzing staff and their users, a conceptual model was developed for the information architecture the proposed system will follow. With varying levels of computer literacy and knowledge of the Schoolzine platform, a categorical approach is implemented. To assist users with limited knowledge of terminology, the user can follow a top down approach narrowing in on the information then required. Moreover, this provides the user with nuance in what each system provides and its functionality. However, it was identified that users may require an option for rapid navigation and filtering. Therefore a search feature is implemented to search for results based on keywords."
-    },
-    "Paragraph3": {
-      "title": "Result",
-      "colSpan": 12,
-      "text": "Since the implementation of the knowledge base system, Schoolzine has experienced a reduction in recurring support enquiries alleviating extra pressure placed on the support team. Used as a reference sheet for client onboarding, the knowledge base reduces training time whilst enhancing training quality. Furthermore, giving clients peace of mind knowing they can fall back on the knowledge base in the instance live support is not available."
-    }
-    ,
-    "Paragraph4": {
-      "title": "The Development Process",
-      "colSpan": 12,
-      "text": "Coming Soon"
-    },
-    "Services": {
-      "title": "Services",
-      "colSpan": 6,
-      "text": " "
-    },
-    "Year": {
-      "title": "Year",
-      "colSpan": 6,
-      "text": "2018"
-    }
-  },{
-    "id":"2",
-    "slug": "PortfolioWebsite",
-    "contentType": "caseStudy",
-    "jobType": [{"typeName": "UX/UI Design", "typeId": "ux"}, {"typeName": "Full-Stack Development", "typeId": "web"}],
-    "hero":{
-    "mainHeading":"Portfolio Website",
-    "subHeading": "Case Study",
-    "image": "../../Portfolio_Hero.webp",
-    "imageFull": "../../Portfolio_Full.webp",
-    "text": "As an upcoming freelancer I required a website that showcases my talents and generate leads. Using the latest in web technologies I can created a clean and comprehensive portfolio website.",
-    "links": [{"title": "website", "url": "https://www.maff.com.au"}]
-    },
-    "Paragraph1": {
-      "title": "Planning",
-      "colSpan": 12,
-      "text": "Approaching the task of designing my portfolio website, I had to identify who the target audience is and how I can captivate their attention. Based on the Sunshine Coast, my focus is to work with local small businesses to assist with their digital needs. Moreover, with the understanding that too much reading can be a deterrent, the task was approached with the aim of a minimalistic website. For the development of the website, I wanted to use new and upcoming web technologies which will facilitate easy maintenance and upgrades."
-    },
-    "Paragraph2": {
-      "title": "Process",
-      "colSpan": 12,
-      "text": "From user personas and wireframes to high fidelity mock-ups, multiple approaches were perused to design the portfolio website. User testing was performed by small business owners receiving positive feedback. The recurring consensus was the straight to the point approach was preferred without having to navigate through a “sales page”. Initially the website was going to be developed with the React library. However, as SEO is important NextJS was used instead capitalising on its server-side rendering. Additionally, using OOP the website is developed in components to provide easy maintenance and flexibility."
-    },
-    "Paragraph3": {
-      "title": "Result",
-      "colSpan": 12,
-      "text": "Coming Soon"
-    },
-    "Services": {
-      "title": "Services",
-      "colSpan": 6,
-      "text": " "
-    },
-    "Year": {
-      "title": "Year",
-      "colSpan": 6,
-      "text": "2022"
-    }
-  },{
-    "id":"3",
-    "slug": "BulletJournalApp",
-    "contentType": "caseStudy",
-    "jobType": [{"typeName": "UX/UI Design", "typeId": "ux"}, {"typeName": "App Development", "typeId": "app"}],
-    "hero":{
-    "mainHeading":"Bullet Journal App",
-    "subHeading": "Case Study",
-    "image": "../../Bullet_Hero.webp",
-    "imageFull": "../../Bullet_Hero.webp",
-    "text": "Coming Soon",
-    "links": [{"title": "website", "url": "https://www.google.com/"}, {"title": "appleStore", "url": "https://www.apple.com/"}, {"title": "googlePlay", "url": "https://www.google.com/"}]
-    },
-    "Paragraph1": {
-      "title": "Planning",
-      "colSpan": 12,
-      "text": "Coming Soon"
-    },
-    "Paragraph2": {
-      "title": "Process",
-      "colSpan": 12,
-      "text": "Coming Soon"
-    },
-    "Paragraph3": {
-      "title": "Result",
-      "colSpan": 12,
-      "text": "Coming Soon"
-    },
-    "Services": {
-      "title": "Services",
-      "colSpan": 6,
-      "text": " "
-    },
-    "Year": {
-      "title": "Year",
-      "colSpan": 6,
-      "text": "Coming Soon"
-    }
-  }
-  ]}
-]}
+  ]
+}

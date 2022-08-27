@@ -31,7 +31,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <i className="fa-brands fa-square-github"></i>
           <div className={`g-0 row row-cols-3 ${classes.copyright}`}>
             <p className="col-12 col-md-1 text-center m-0 text-md-start">
               ©2022

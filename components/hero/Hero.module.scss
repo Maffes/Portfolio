@@ -80,7 +80,7 @@
     display: none;
   }
   .heroContainer {
-    margin-bottom: calc($SectionPaddingMedium + 2rem);
+    margin-bottom: $SectionPaddingMedium;
   }
 }
 
@@ -90,6 +90,6 @@
   }
 
   .heroContainer {
-    margin-bottom: $SectionPaddingMedium;
+    margin-bottom: $SectionPaddingSmall;
   }
 }

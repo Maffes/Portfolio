@@ -1,10 +1,14 @@
 @import '../../styles/variables.scss';
 
 .links {
-  padding: 40px 0 0 0;
+  // padding: 65px 0 0 0;
   display: flex;
 
   z-index: 100;
+}
+
+.linksRow {
+  padding: 65px 0 0 0;
 }
 
 .links a {

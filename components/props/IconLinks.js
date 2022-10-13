@@ -41,7 +41,7 @@ const IconLinks = (iconList) => {
       data-aos-duration="500"
       data-aos-delay="700"
       data-aos-offset="0"
-      className={` ${classes.links} rows position-absolute`}
+      className={` ${classes.links} ${classes.linksRow} rows position-absolute`}
     >
       <div className="column">
         <div className="row">{Icon}</div>

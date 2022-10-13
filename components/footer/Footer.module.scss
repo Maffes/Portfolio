@@ -12,14 +12,13 @@
   color: $LightMain;
 }
 
-
 .footer a:hover {
   color: $LightMain;
 }
 
 .footer h1 {
   text-align: center;
-  color: $LightMain ;
+  // color: $LightMain ;
   margin: $SectionPaddingMedium 0;
 }
 
@@ -98,17 +97,13 @@
   background-position: left center;
   background-size: 30px;
   //
-
 }
-
 
 @media (max-width: 576px) {
   .footer {
     margin-top: $SectionPaddingSmall;
-
   }
 }
-
 
 .contactInfo li:nth-child(1) {
   background-image: url('../../public/Phone.svg');

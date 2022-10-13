@@ -37,9 +37,9 @@ const IconLinks = (iconList) => {
 
   return (
     <div
-      data-aos="fade-in"
-      data-aos-duration="700"
-      data-aos-delay="800"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-delay="700"
       data-aos-offset="0"
       className={` ${classes.links} rows position-absolute`}
     >

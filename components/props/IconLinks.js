@@ -37,7 +37,7 @@ const IconLinks = (iconList) => {
 
   return (
     <div
-      data-aos="fade-up"
+      data-aos="fade-in"
       data-aos-duration="500"
       data-aos-delay="700"
       data-aos-offset="0"
